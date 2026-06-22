@@ -15,36 +15,56 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Coffee Cat Bros" />
-    <meta name="theme-color" content="#101828" />
+    <meta name="theme-color" content="#f7f4ef" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
-    <main class="page" aria-labelledby="title">
-      <section class="card">
-        <div class="brand">
-          <span class="mark" aria-hidden="true">CCB</span>
-          <span>Coffee Cat Bros</span>
+    <header class="header">
+      <a class="brand" href="#home">Coffee Cat Bros</a>
+      <nav aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="title">
+        <p class="label">Software consulting / digital services</p>
+        <h1 id="title">Software consulting for B2B teams.</h1>
+        <p class="summary">Web development, automation, integrations, and maintenance for international clients.</p>
+        <a class="email-link" href="mailto:coffeecatbrosx@gmail.com?subject=Project%20inquiry">
+          coffeecatbrosx@gmail.com
+        </a>
+      </section>
+
+      <section class="section" id="services" aria-labelledby="services-title">
+        <div class="section-title">
+          <span>01</span>
+          <h2 id="services-title">Services</h2>
         </div>
-
-        <div class="intro">
-          <p class="eyebrow">Software consulting</p>
-          <h1 id="title">Digital services for B2B international clients.</h1>
-          <p>
-            Software consulting, web development, automation, integrations, and maintenance.
-          </p>
+        <div class="rows">
+          <p>Software consulting</p>
+          <p>Web and app development</p>
+          <p>Automation and integrations</p>
+          <p>Maintenance and technical support</p>
         </div>
+      </section>
 
-        <ul class="services" aria-label="Services">
-          <li>Consulting</li>
-          <li>Web and app development</li>
-          <li>Automation</li>
-          <li>Integrations</li>
-          <li>Maintenance</li>
-        </ul>
-
-        <a class="email" href="mailto:coffeecatbrosx@gmail.com">coffeecatbrosx@gmail.com</a>
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-title">
+          <span>02</span>
+          <h2 id="contact-title">Contact</h2>
+        </div>
+        <a href="mailto:coffeecatbrosx@gmail.com?subject=Project%20inquiry">
+          coffeecatbrosx@gmail.com
+        </a>
       </section>
     </main>
+
+    <footer>
+      <span>© 2026 Coffee Cat Bros</span>
+      <a href="#home">Back to top</a>
+    </footer>
   </body>
 </html>

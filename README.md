@@ -8,4 +8,4 @@ Open `index.html` in a browser.
 
 ## Deploy
 
-This folder is ready for GitHub Pages.
+This folder is ready for static hosting. Railway/Railpack can serve it directly from the root `index.html`; the `Staticfile` keeps the root explicit. GitHub Pages also works from the `main` branch root.
