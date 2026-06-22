@@ -2,6 +2,11 @@
 
 Minimal static website for Coffee Cat Bros.
 
+Live URLs:
+
+- Netlify: https://coffeecatbros-site.netlify.app/
+- GitHub Pages: https://orlaan.github.io/coffeecatbros-site/
+
 ## Local Preview
 
 Open `index.html` in a browser.
